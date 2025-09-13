@@ -1,0 +1,23 @@
+{
+  "name": "insta-proxy",
+  "version": "1.0.0",
+  "description": "Instagram media proxy server using instagram-url-direct",
+  "keywords": [
+    "instagram",
+    "downloader",
+    "proxy",
+    "nodejs"
+  ],
+  "license": "ISC",
+  "author": "rkgcode",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "instagram-url-direct": "^2.0.7"
+  }
+}
